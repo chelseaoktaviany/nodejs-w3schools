@@ -1,3 +1,5 @@
+require("dotenv").config({ path: ".env" });
+
 var mysql = require("mysql");
 
 var con = mysql.createConnection({
